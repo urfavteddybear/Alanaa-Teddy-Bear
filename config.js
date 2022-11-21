@@ -21,24 +21,6 @@ module.exports = {
 	// You need a lavalink server for this bot to work!!!!
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
-		{
-			identifier: "Main 1", //- Used for indentifier in stats commands.
-			host: "141.148.196.197",
-			port: 3000,
-			password: "LavaOnMoon",
-			retryAmount: 9999999, //- The amount of times to retry connecting to the node if connection got dropped.
-			retryDelay: 6000, //- Delay between reconnect attempts if connection is lost.
-			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
-		  },
-		  {
-			identifier: "Main 2", //- Used for indentifier in stats commands.
-			host: "192.95.42.70",
-			port: 25582,
-			password: "lavaserver",
-			retryAmount: 9999999, //- The amount of times to retry connecting to the node if connection got dropped.
-			retryDelay: 6000, //- Delay between reconnect attempts if connection is lost.
-			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
-		  },
 		  {
 			identifier: "Fallback", //- Used for indentifier in stats commands.
 			host: "140.238.248.156",
